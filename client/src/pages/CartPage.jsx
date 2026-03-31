@@ -1,10 +1,15 @@
+import "./Pages.css";
+
 function CartPage() {
   return (
     <section className="page">
-      <h1 className="page-title">Cart Page</h1>
-      <p className="page-subtitle">
-        We will build the cart features in the next issues.
-      </p>
+      <div className="page-card">
+        <h2>Cart Page</h2>
+        <p>
+          This page will show the items added to the cart along with the total
+          cost.
+        </p>
+      </div>
     </section>
   );
 }
